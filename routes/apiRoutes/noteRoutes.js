@@ -11,8 +11,6 @@ router.get('/notes', (req, res) => {
 
 router.post('/notes', (req, res) => {
     req.body.id = notes.length.toString();
-    console.log(body.id);
-    console.log(notes.length);
     var note = noteCreateNewNote(req.body, notes);
     res.json(note);
 })
