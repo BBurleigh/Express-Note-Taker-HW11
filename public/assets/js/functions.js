@@ -8,7 +8,7 @@ function noteCreateNewNote(body, noteTakerArray) {
 
     noteTakerArray.push(note);
 
-    fs.writeFileSync(path.join(__dirname, '../../../db/db.json')), JSON.stringify({notes: noteTakerArray}, null, 2)
+    fs.writeFileSync(path.join(__dirname, '../../../db/db.json'), JSON.stringify( noteTakerArray), null, 2)
 
     return note;
 }
