@@ -9,4 +9,15 @@ function noteCreateNewNote(body, noteTakerArray) {
     return note;
 }
 
+function noteDeleteNote(noteTakerArray, id) {
+    var deleteID = parseInt(id);
+    noteTakerArray.splice(deleteID, 1);
+
+    for (let i = deleteID; i < noteTakerArray.length; i++) {
+        noteTakerArray[i].id = i.toString();
+    }
+
+    fs.writeFileSync(path.join(__dirname, '../../db/db.json'), JSON.stringify({notes: noteTakerArray}, null, 2))
+}
+
 module.exports = {noteCreateNewNote, noteDeleteNote};
