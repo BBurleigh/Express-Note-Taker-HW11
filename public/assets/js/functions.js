@@ -15,14 +15,14 @@ function noteCreateNewNote(body, noteTakerArray) {
 
 function noteDeleteNote(noteTakerArray, id) {
 
-    var deleteID = parseInt(id);
+    var removeID = parseInt(id);
 
-    noteTakerArray.splice(deleteID, 1);
+    noteTakerArray.splice(removeID, 1);
 
-    for (let i = deleteID; i < noteTakerArray.length; i++) {
+    for (let i = removeID; i < noteTakerArray.length; i++) {
 
         noteTakerArray[i].id = i.toString();
-        
+
     }
 
     fs.writeFileSync(path.join(__dirname, '../../db/db.json'), JSON.stringify({notes: noteTakerArray}, null, 2))
