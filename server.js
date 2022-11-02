@@ -14,7 +14,7 @@ const htmlRoute = require('./routes/htmlRoute');
 
 app.use(express.static('public'));
 
-app.use(express.urlencoded({extend: true}));
+app.use(express.urlencoded({extended: true}));
 
 app.use(express.json());
 
@@ -23,5 +23,5 @@ app.use('/api', apiRoutes);
 app.use('/', htmlRoute);
 
 app.listen(PORT, () => {
-    console.log(`Server is available at localhost${PORT}`);
+    console.log(`Server is available at localhost ${PORT}`);
 })
