@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-const {notes} = require('../../db/db.json');
+const notes = require('../../db/db.json');
 
 const {noteCreateNewNote, noteDeleteNote} = require('../../public/assets/js/functions');
 
