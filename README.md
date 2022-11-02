@@ -6,6 +6,8 @@ Aside from this being a HW assignment, the goal was to practice connecting the b
 ## Installation
 In order to run this on your terminal, you will need to type the command "npm i" in order to run this app from your terminal.  By extent, express is needed by running this command as well as node_modules.
 
+This app can also be accessed on heroku: https://mighty-brook-38874.herokuapp.com/notes.
+
 ## Usage
 I have attached several screenshots to display its appearance and functionality:
 ![Screenshot (21)](https://user-images.githubusercontent.com/109905208/199580782-45c9a7d9-5aa2-4b79-9601-7eb92658e8c3.png)
