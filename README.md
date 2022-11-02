@@ -16,7 +16,7 @@ I have attached several screenshots to display its appearance and functionality:
 ![Screenshot (24)](https://user-images.githubusercontent.com/109905208/199580842-7353602d-9019-419d-aa18-4601d8e9e8cb.png)
 
 ## Contributions
-Aside from myself and research, my tutor and two of support staff at AskBCS Learning (on Slack) immensely helped me by bouncing ideas off of each other and finding areas where the code could be fixed/tweaked/added/removed. 
+Aside from myself and research, my tutor and two of support staff at AskBCS Learning (on Slack) immensely helped me by bouncing ideas off of each other and finding areas where the code could be fixed/tweaked/added/removed. In addition, these two resources/videos helped me immensely with this assignment: 1) https://www.youtube.com/watch?v=sJ7lkaeeEkw and 2) https://www.youtube.com/watch?v=SccSCuHhOw0.
 
 ## License
 None
